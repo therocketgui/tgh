@@ -1,0 +1,144 @@
+/* Container */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.container {
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-right: 0!important;
+  margin-left: 0!important;
+  width: 100%;
+}
+/* Text */
+h1, h2, h3, h4, h5, p, span {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+  font-style: bold;
+  font-size: 30px;
+  color: #464949;
+}
+
+p {
+
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.cta {
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Cards */
+
+.card {
+  border: 1px solid #fafafa;
+  box-shadow: 0 2px 8px rgba(0,0,0,.09);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.card-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-cta {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* CTA */
+
+/* Main */
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.main .left, .main .right {
+  flex: 0 0 50%;
+}
+.main .right img {
+  width: 80%;
+}
+
+/* Partners */
+
+.partners {
+
+}
+
+.partners img{
+  width: 100%!important;
+}
+
+/* Services */
+
+.services {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+
+  margin-right: 75px;
+  margin-left: 75px;
+
+  margin-top: -60px;
+}
+
+.services > div {
+
+}
+
+.service {
+  width: 250px;
+  height: 350px;
+  margin-top: 60px;
+}
+
+.service-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* About */
+
+/* Team */
+
+/* Footer */
