@@ -26,6 +26,25 @@ h1, h2, h3, h4, h5, p, span, li {
   color: #555;
 }
 
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 50px!important;
+  }
+
+  h2 {
+    font-size: 24px!important;
+  }
+
+  h3 {
+    font-size: 24px!important;
+  }
+
+  .title {
+    padding-top: 30px!important;
+    padding-bottom: 30px!important;
+  }
+}
+
 h1 {
   font-size: 60px;
   font-weight: 900;
@@ -51,6 +70,13 @@ p {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+  .cta {
+    width: 70% !important;
+    margin: 0 auto;
+  }
 }
 
 .cta {
@@ -121,6 +147,15 @@ p {
 }
 
 /* CTA */
+@media only screen and (max-width: 800px) {
+  input {
+    width: 100%!important;
+  }
+  .btn {
+    width: 100%!important;
+  }
+}
+
 input {
   width: 60%;
   height: 40px;
@@ -158,6 +193,13 @@ input {
 }
 
 /* Menu */
+@media only screen and (max-width: 800px) {
+  .menu {
+    padding-left: 2%!important;
+    padding-right: 2%!important;
+  }
+}
+
 .menu {
   height: 75px;
   line-height: 75px;
@@ -177,6 +219,14 @@ li {
 }
 
 /* Main */
+@media only screen and (max-width: 800px) {
+  .main .right {
+    display: none;
+  }
+  .main .left {
+    flex: 0 0 100%!important;
+  }
+}
 
 .main {
   display: flex;
@@ -266,6 +316,13 @@ li {
 }
 
 /* About */
+@media only screen and (max-width: 800px) {
+  .summary {
+    padding-left: 10%!important;
+    padding-right: 10%!important;
+  }
+}
+
 .summary {
   padding-left: 25%;
   padding-right: 25%;
@@ -277,6 +334,9 @@ li {
 
 .about {
   background: url(img/about-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 .about .cta, .teams-container .cta {
