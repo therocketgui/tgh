@@ -1,5 +1,12 @@
 <html>
   <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PBNXMZ8');</script>
+    <!-- End Google Tag Manager -->
 
     <title></title>
     <meta name="description" content="">
@@ -7,11 +14,14 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="canonical" href="">
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <script src="img/https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBNXMZ8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="container header" id="header">
       <div class="menu">
@@ -28,9 +38,11 @@
               <h1>The Growth Hustlers</h1>
               <h2>A Collective of specialists that deploys state of the art growth infrastructure</h2>
             </div>
-            <div>
-              <input type="text">
-              <button class="btn btn-main">Get a 30 minute meeting</button>
+            <div class="header-form">
+              <form id="myForm">
+                <input type="email" name="email" placeholder="Email">
+                <input type="submit" value="Book a 30 minute meeting" id="Form-submit" class="btn btn-main">
+              </form>
             </div>
           </div>
         </div>
@@ -162,7 +174,7 @@
         <h3>Who we are</h3>
       </div>
       <div class="summary">
-        <p>We’re all individuals expert in our domains and head of growth in top tech startups in Lodnon. We’ve created this collective to share our experience and  offer inexpensive and top quality growth services to startups</p>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
       </div>
       <div class="cta">
         <button class="btn btn-main"><a href="#header">Contact Us</a></button>
@@ -275,10 +287,43 @@
       </div>
     </div>
 
+    <div class="container about" id="about">
+      <div class="title">
+        <h3>Our Mission</h3>
+      </div>
+      <div class="summary">
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt.</p>
+      </div>
+      <div class="cta">
+        <button class="btn btn-main"><a href="#header">Contact Us</a></button>
+      </div>
+    </div>
+
     <footer>
       <div>
         <p>2018 © The Growth Hustlers LTD</p>
       </div>
     </footer>
+
+    <script>
+      $('#myForm').submit(function(e){
+          e.preventDefault();
+          $.ajax({
+              url:'https://hooks.zapier.com/hooks/catch/3683584/qobajy/',
+              type:'post',
+              data:$('#myForm').serialize(),
+              success:function(){
+                // Redirect to another success page
+                dataLayer.push({
+                  'event':'thegrowthhustlers',
+                  'eventCategory': 'lead-acquisition',
+                  'eventAction': 'lead acquisition form submit',
+                  'eventLabel': 'submit'
+                });
+                window.location = "https://thegrowthhustlers.com";
+              }
+          });
+      });
+    </script>
   </body>
 </html>
