@@ -13,23 +13,25 @@
   </head>
   <body>
 
-    <div class="container header">
+    <div class="container header" id="header">
       <div class="menu">
         <ul>
-          <li>Services</li>
-          <li>About Us</li>
-          <li>The Team</li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#team">The Team</a></li>
         </ul>
       </div>
       <div class="main">
         <div class="left">
-          <div>
-            <h1>The Growth Hustlers</h1>
-            <h2>A Collective of specialists that offers Growth as a Service.</h2>
-          </div>
-          <div>
-            <input type="text">
-            <button>Get a 30 minute meeting</button>
+          <div class="header-title">
+            <div>
+              <h1>The Growth Hustlers</h1>
+              <h2>A Collective of specialists that deploys state of the art growth infrastructure</h2>
+            </div>
+            <div>
+              <input type="text">
+              <button class="btn btn-main">Get a 30 minute meeting</button>
+            </div>
           </div>
         </div>
         <div class="right">
@@ -38,106 +40,124 @@
       </div>
     </div>
 
-    <div class="container partners">
-      <div class="title">
-        <h3>We’re proud to have work with</h3>
-      </div>
-      <div>
-        <img src="img/partners.png" alt="">
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="title">
-        <h3>Services</h3>
-      </div>
-      <div class="services">
-        <!-- <div> -->
-          <div class="service-container">
-            <div class="card service">
-              <div class="card-logo">
-                <img src="img/acquisition.png" alt="">
-              </div>
-              <div class="card-title">
-                <p>Acquisition</p>
-              </div>
-              <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-              <div class="card-cta">
-                <button>Contact Us</button>
-              </div>
-            </div>
-          </div>
-          <div class="service-container">
-            <div class="card service">
-              <div class="card-logo">
-                <img src="img/acquisition.png" alt="">
-              </div>
-              <div class="card-title">
-                <p>Acquisition</p>
-              </div>
-              <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-              <div class="card-cta">
-                <button>Contact Us</button>
-              </div>
-            </div>
-          </div>
-          <div class="service-container">
-            <div class="card service">
-              <div class="card-logo">
-                <img src="img/acquisition.png" alt="">
-              </div>
-              <div class="card-title">
-                <p>Acquisition</p>
-              </div>
-              <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-              <div class="card-cta">
-                <button>Contact Us</button>
-              </div>
-            </div>
-          </div>
-          <div class="service-container">
-            <div class="card service">
-              <div class="card-logo">
-                <img src="img/acquisition.png" alt="">
-              </div>
-              <div class="card-title">
-                <p>Acquisition</p>
-              </div>
-              <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-              <div class="card-cta">
-                <button>Contact Us</button>
-              </div>
-            </div>
-          </div>
-          <div class="service-container">
-            <div class="card service">
-              <div class="card-logo">
-                <img src="img/acquisition.png" alt="">
-              </div>
-              <div class="card-title">
-                <p>Acquisition</p>
-              </div>
-              <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-              <div class="card-cta">
-                <button>Contact Us</button>
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
+    <div class="partners-container">
+      <div class="container partners">
+        <div class="title">
+          <h3>We’re proud to have work with</h3>
+        </div>
+        <div>
+          <img src="img/partners.png" alt="">
+        </div>
       </div>
     </div>
 
-    <div class="container about">
+    <div class="services-container" id="services">
+      <div class="container">
+        <div class="title">
+          <h3>Services</h3>
+        </div>
+        <div class="services">
+            <div class="service-container">
+              <div class="card service">
+                <div class="card-logo">
+                  <img src="img/acquisition.png" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Paid Acquisition</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-cta">
+                  <button class="btn btn-main"><a href="#header">Contact Us</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="service-container">
+              <div class="card service">
+                <div class="card-logo">
+                  <img src="img/data.png" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Analytics</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-cta">
+                  <button class="btn btn-main"><a href="#header">Contact Us</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="service-container">
+              <div class="card service">
+                <div class="card-logo">
+                  <img src="img/data.png" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Data Strategy</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-cta">
+                  <button class="btn btn-main"><a href="#header">Contact Us</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="service-container">
+              <div class="card service">
+                <div class="card-logo">
+                  <img src="img/seo_chess.png" alt="">
+                </div>
+                <div class="card-title">
+                  <p>SEO</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-cta">
+                  <button class="btn btn-main"><a href="#header">Contact Us</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="service-container">
+              <div class="card service">
+                <div class="card-logo">
+                  <img src="img/funnel.png" alt="">
+                </div>
+                <div class="card-title">
+                  <p>CRO</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-cta">
+                  <button class="btn btn-main"><a href="#header">Contact Us</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="service-container">
+              <div class="card service">
+                <div class="card-logo">
+                  <img src="img/acquisition.png" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Content</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card-cta">
+                  <button class="btn btn-main"><a href="#header">Contact Us</a></button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container about" id="about">
       <div class="title">
         <h3>Who we are</h3>
       </div>
@@ -145,40 +165,120 @@
         <p>We’re all individuals expert in our domains and head of growth in top tech startups in Lodnon. We’ve created this collective to share our experience and  offer inexpensive and top quality growth services to startups</p>
       </div>
       <div class="cta">
-        <button>Contact Us</button>
+        <button class="btn btn-main"><a href="#header">Contact Us</a></button>
       </div>
     </div>
 
-    <div class="container teams">
-      <div class="title">
-        <h3>The Growth Hustlers</h3>
-      </div>
-      <div class="card team">
-        <div class="card-logo">
-
+    <div class="teams-container" id="team">
+      <div class="container">
+        <div class="title">
+          <h3>The Growth Hustlers</h3>
         </div>
-        <div class="card-title">
-          <p>Emmanuelle Macron</p>
+        <div class="teams">
+            <div class="team-container">
+              <div class="card team">
+                <div class="card-logo">
+                  <img src="img/giovanni.jpg" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Giovanni</p>
+                </div>
+                <div class="card-subtitle">
+                  <p>Director</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="team-container">
+              <div class="card team">
+                <div class="card-logo">
+                  <img src="img/giovanni.jpg" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Giovanni</p>
+                </div>
+                <div class="card-subtitle">
+                  <p>Director</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="team-container">
+              <div class="card team">
+                <div class="card-logo">
+                  <img src="img/giovanni.jpg" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Giovanni</p>
+                </div>
+                <div class="card-subtitle">
+                  <p>Director</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="team-container">
+              <div class="card team">
+                <div class="card-logo">
+                  <img src="img/giovanni.jpg" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Giovanni</p>
+                </div>
+                <div class="card-subtitle">
+                  <p>Director</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="team-container">
+              <div class="card team">
+                <div class="card-logo">
+                  <img src="img/giovanni.jpg" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Giovanni</p>
+                </div>
+                <div class="card-subtitle">
+                  <p>Director</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="team-container">
+              <div class="card team">
+                <div class="card-logo">
+                  <img src="img/giovanni.jpg" alt="">
+                </div>
+                <div class="card-title">
+                  <p>Giovanni</p>
+                </div>
+                <div class="card-subtitle">
+                  <p>Director</p>
+                </div>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="title-sub">
-          <p>World President</p>
-        </div>
-        <div class="card-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-      <div class="card team"></div>
-      <div class="card team"></div>
-      <div class="card team"></div>
-      <div class="card team"></div>
-      <div class="card team"></div>
-      <div class="cta">
-
       </div>
     </div>
 
     <footer>
-
+      <div>
+        <p>2018 © The Growth Hustlers LTD</p>
+      </div>
     </footer>
   </body>
 </html>

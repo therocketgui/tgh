@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1383px" height="1287px" viewBox="0 0 1383 1287" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>header-wave</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-wave" fill="#F7F8F9" fill-rule="nonzero">
+            <path d="M4.35619555,296.041923 C14.1576355,292.854067 335.153095,527.585119 661.969282,224.994667 C934.195972,-27.0528158 1383,1 1383,1 L1383,762.160093 L4.35619555,762.160093 C4.35619555,762.160093 -5.4452444,299.229778 4.35619555,296.041923 Z" id="Rectangle"></path>
+            <path d="M4.35619555,744.996846 C287.05818,627.101719 323.812313,895.556667 661.969282,637.694556 C1014.04012,369.222401 1383,744.996846 1383,744.996846 L1383,1287 L4.35619555,1287 C4.35619555,1287 -5.4452444,748.850206 4.35619555,744.996846 Z" id="Rectangle-Copy"></path>
+        </g>
+    </g>
+</svg>
