@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1383px" height="1287px" viewBox="0 0 1383 1287" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1628px" height="1636px" viewBox="0 0 1628 1636" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
     <title>header-wave</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <filter x="-0.7%" y="-0.7%" width="101.5%" height="101.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="header-wave" fill="#F7F8F9" fill-rule="nonzero">
-            <path d="M4.35619555,296.041923 C14.1576355,292.854067 335.153095,527.585119 661.969282,224.994667 C934.195972,-27.0528158 1383,1 1383,1 L1383,762.160093 L4.35619555,762.160093 C4.35619555,762.160093 -5.4452444,299.229778 4.35619555,296.041923 Z" id="Rectangle"></path>
-            <path d="M4.35619555,744.996846 C287.05818,627.101719 323.812313,895.556667 661.969282,637.694556 C1014.04012,369.222401 1383,744.996846 1383,744.996846 L1383,1287 L4.35619555,1287 C4.35619555,1287 -5.4452444,748.850206 4.35619555,744.996846 Z" id="Rectangle-Copy"></path>
+        <g id="header-wave" filter="url(#filter-1)" transform="translate(8.000000, 8.000000)" fill="#8C7AE6" fill-rule="nonzero">
+            <path d="M0,511.503676 C0,503.651858 506.053945,985.509987 894.499267,395.223956 C1149.99745,6.96593967 1612,0.391132244 1612,0.391132244 L1612,1095 L0,1095 C0,1095 8.12395949e-16,519.355494 0,511.503676 Z" id="Rectangle"></path>
+            <path d="M0,1077.99685 C216.466334,961.920574 373.528869,1228.55667 768.92399,970.694556 C1180.58811,702.222401 1612,1077.99685 1612,1077.99685 L1612,1620 L0,1620 C0,1620 0,1077.99685 0,1077.99685 Z" id="Rectangle-Copy"></path>
         </g>
     </g>
 </svg>
