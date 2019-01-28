@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="523px" height="390px" viewBox="0 0 523 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>rocket</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.9999955%" y1="99.9890645%" x2="49.9999955%" y2="-0.00273388376%" id="linearGradient-1">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-843.000000, -273.000000)">
+            <g id="Header" transform="translate(106.000000, 36.000000)">
+                <g id="rocket" transform="translate(737.000000, 237.000000)">
+                    <path d="M597.93945,345.069714 L540.798455,345.069714 C542.113222,341.899582 542.795226,338.406407 542.790608,334.86604 L542.790608,22.9342774 C542.790608,10.2680258 534.225814,0 523.660604,0 L81.3581751,0 C70.7929652,3.03036434e-14 62.2281704,10.2680258 62.2281704,22.9342774 L62.2281704,334.876702 C62.2235528,338.417068 62.9055566,341.910245 64.2203233,345.080376 L5.06049474,345.080376 C3.7137513,345.080354 2.42255247,345.723918 1.47276864,346.868584 C0.522983912,348.013249 -0.00703016653,349.564584 7.0435866e-05,351.179124 L7.0435866e-05,356.073049 C7.0435866e-05,374.810387 12.6700735,390 28.299315,390 L574.70063,390 C582.206057,390 589.40408,386.425564 594.711218,380.063026 C600.018355,373.700489 602.999875,365.071036 602.999875,356.073049 L602.999875,351.179124 C603.009354,349.562742 602.48039,348.008659 601.530347,346.86168 C600.580304,345.7147 599.287745,345.069674 597.93945,345.069714 Z M245.853092,364.474821 L240.926071,357.810979 L362.571912,357.810979 L357.146853,364.485483 L245.853092,364.474821 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                    <rect id="Rectangle-path" fill="#535461" fill-rule="nonzero" x="68" y="6" width="469" height="354" rx="23.26"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="78" y="32" width="449" height="317"></rect>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="304" cy="21" r="4"></circle>
+                    <path d="M370.265204,349 L354.852685,364.999757 L246.182869,364.999757 L232.254716,349 L10.9419612,349 C8.21259157,349 6,351.238794 6,354.000486 L6,358.029655 C6,373.47725 18.3761854,386 33.6429843,386 L567.357016,386 C574.688391,386 581.719493,383.053133 586.903557,377.807676 C592.087622,372.562219 595,365.447852 595,358.029655 L595,354.000486 C595,351.238794 592.787408,349 590.058039,349 L370.265204,349 Z" id="Shape" fill="#535461" fill-rule="nonzero"></path>
+                    <polyline id="Shape" stroke="#535461" stroke-width="2" points="135 114 135 317 470 317"></polyline>
+                    <path d="M166,207.459999 C166,194.486666 171.833333,188 183.5,188 C195.166667,188 201,194.486666 201,207.459999 L201,307.711158 L166,307.711158 L166,207.459999 Z" id="Rectangle-path" fill="#6BB9F0" fill-rule="nonzero" opacity="0.5"></path>
+                    <path d="M226,164.109899 C226,148.7033 231.833333,141 243.5,141 C255.166667,141 261,148.7033 261,164.109899 L261,307.305982 L226,307.305982 L226,164.109899 Z" id="Rectangle-path" fill="#6BB9F0" fill-rule="nonzero" opacity="0.7"></path>
+                    <path d="M285,198.168061 C285,183.389354 290.833333,176 302.5,176 C314.166667,176 320,183.389354 320,198.168061 L320,306.862063 L285,306.862063 L285,198.168061 Z" id="Rectangle-path" fill="#6BB9F0" fill-rule="nonzero" opacity="0.5"></path>
+                    <path d="M345,144.001887 C345,128.667296 350.833333,121 362.5,121 C374.166667,121 380,128.667296 380,144.001887 L380,307.359589 L345,307.359589 L345,144.001887 Z" id="Rectangle-path" fill="#6BB9F0" fill-rule="nonzero" opacity="0.8"></path>
+                    <path d="M404,121.317584 C404,106.439195 409.833333,99 421.5,99 C433.166667,99 439,106.439195 439,121.317584 L439,307.825259 L404,307.825259 L404,121.317584 Z" id="Rectangle-path" fill="#6BB9F0" fill-rule="nonzero"></path>
+                    <polyline id="Shape" stroke="#535461" stroke-width="2" points="182 159 242.235872 104.002471 301.485872 155.996047 359.75 93.002965 419 68"></polyline>
+                    <circle id="Oval" fill="#6BB9F0" fill-rule="nonzero" cx="183" cy="158" r="7"></circle>
+                    <circle id="Oval" fill="#6BB9F0" fill-rule="nonzero" cx="301" cy="154" r="7"></circle>
+                    <circle id="Oval" fill="#6BB9F0" fill-rule="nonzero" cx="362" cy="93" r="7"></circle>
+                    <circle id="Oval" fill="#6BB9F0" fill-rule="nonzero" cx="244" cy="103" r="7"></circle>
+                    <circle id="Oval" fill="#6BB9F0" fill-rule="nonzero" cx="421" cy="68" r="7"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

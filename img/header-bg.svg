@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="535px" height="427px" viewBox="0 0 535 427" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>header-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-bg" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(0.000000, 335.000000)">
+                <path d="M15,31 C188.333333,31 361.666667,31 535,31 C535,31 535,61 535,61 C361.666667,61 188.333333,61 15,61 L15,61 C6.71572875,61 -1.20141959e-13,54.2842712 -1.21156489e-13,46 L-1.21156489e-13,46 C-1.2217102e-13,37.7157288 6.71572875,31 15,31 Z" id="Rectangle-8" fill="#8C7AE6" opacity="0.425279018"></path>
+                <rect id="Rectangle-8-Copy-3" fill="#8C7AE6" opacity="0.812332589" x="51" y="31" width="478" height="30" rx="15"></rect>
+                <rect id="Rectangle-8-Copy-8" fill="#6BB9F0" opacity="0.499776786" x="86" y="61" width="449" height="31" rx="15.5"></rect>
+                <path d="M168.499891,60.9998117 C290.666594,60.9998117 412.833297,60.9998117 535,60.9998117 C535,60.9998117 535,92 535,92 C412.833297,92 290.666594,92 168.499891,92 L168.499891,92 C159.939477,92 152.999891,85.0604136 152.999891,76.5 L152.999891,76.4998117 C152.999891,67.939398 159.939477,60.9998117 168.499891,60.9998117 Z" id="Rectangle-8-Copy-10" fill="#6BB9F0" opacity="0.76640625"></path>
+                <rect id="Rectangle-8-Copy-5" fill="#6BB9F0" opacity="0.576729911" x="30" y="0" width="468" height="31" rx="15.5"></rect>
+                <path d="M82.4999941,-5.68434189e-14 C233.333329,-5.68434189e-14 384.166665,-5.68434189e-14 535,-5.68434189e-14 C535,-5.68434189e-14 535,31.0000685 535,31.0000685 C384.166665,31.0000685 233.333329,31.0000685 82.4999941,31.0000685 L82.4999941,31.0000685 C73.9395805,31.0000685 66.9999941,24.0604821 66.9999941,15.5000685 L66.9999941,15.5 C66.9999941,6.93958638 73.9395805,-5.52708964e-14 82.4999941,-5.68434189e-14 Z" id="Rectangle-8-Copy-9" fill="#6BB9F0"></path>
+            </g>
+            <g id="Group-2" transform="translate(478.500000, 186.000000) rotate(90.000000) translate(-478.500000, -186.000000) translate(292.500000, 129.500000)">
+                <rect id="Rectangle-8" fill="#8C7AE6" opacity="0.425279018" x="12.0715433" y="28.571429" width="332.902816" height="28.1428571" rx="14.0714286"></rect>
+                <rect id="Rectangle-8-Copy-2" fill="#8C7AE6" opacity="0.508761161" x="0.408990583" y="0.4285714" width="355.693574" height="28.1428571" rx="14.0714286"></rect>
+                <rect id="Rectangle-8-Copy-3" fill="#8C7AE6" opacity="0.812332589" x="37.1908877" y="28.571429" width="318.911676" height="28.1428571" rx="14.0714286"></rect>
+                <rect id="Rectangle-8-Copy-8" fill="#6BB9F0" opacity="0.499776786" x="55.1332765" y="56.714286" width="300.969288" height="28.1428571" rx="14.0714286"></rect>
+                <rect id="Rectangle-8-Copy-12" fill="#6BB9F0" opacity="0.300558036" x="136.472106" y="84.857143" width="235.045293" height="28.1428571" rx="14.0714286"></rect>
+                <rect id="Rectangle-8-Copy-10" fill="#6BB9F0" opacity="0.76640625" x="88.9247758" y="56.714286" width="267.177788" height="28.1428571" rx="14.0714286"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
